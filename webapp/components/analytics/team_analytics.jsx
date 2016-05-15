@@ -78,7 +78,7 @@ class TeamAnalytics extends React.Component {
                         id='analytics.team.title'
                         defaultMessage='Team Statistics for {team}'
                         values={{
-                            team: this.props.team.name
+                            team: this.props.team.display_name
                         }}
                     />
                 </h3>
