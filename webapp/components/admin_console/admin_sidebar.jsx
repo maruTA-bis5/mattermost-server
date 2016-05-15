@@ -128,7 +128,7 @@ export default class AdminSidebar extends React.Component {
                                         onClick={this.handleClick.bind(this, 'team_users', team.id)}
                                         className={'nav__sub-menu-item ' + this.isSelected('team_users', team.id) + ' ' + this.isSelected('team_analytics', team.id)}
                                     >
-                                        {team.name}
+                                        {team.display_name}
                                         <OverlayTrigger
                                             delayShow={1000}
                                             placement='top'
