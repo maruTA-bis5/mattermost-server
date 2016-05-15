@@ -146,7 +146,7 @@ export default class UserList extends React.Component {
                             id='admin.userList.title'
                             defaultMessage='Users for {team}'
                             values={{
-                                team: this.props.team.name
+                                team: this.props.team.display_name
                             }}
                         />
                     </h3>
@@ -177,7 +177,7 @@ export default class UserList extends React.Component {
                         id='admin.userList.title2'
                         defaultMessage='Users for {team} ({count})'
                         values={{
-                            team: this.props.team.name,
+                            team: this.props.team.display_name,
                             count: this.state.users.length
                         }}
                     />
